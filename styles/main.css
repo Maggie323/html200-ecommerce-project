@@ -13,24 +13,34 @@ p {
 img {
   max-height: 20rem;
 }
-
+header {
+	background-color: beige;
+}
 /***************** NAV *****************/
 
 nav a:hover {
   text-decoration: underline;
 }
-
+/*Horizontal NAV*/
+nav, li {
+	display: inline;
+	align-content: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	border: solid;
+}
 /**************** HERO *****************/
 
 header img {
   max-height: 6rem;
+	border: solid;
 }
 
 h1 .logo-w {
   font-size: 3.5rem;
 }
 
-/**************** ASIDE ****************/
+/**************** Footer (Previously ASIDE) ****************/
 
 input[type="submit"] {
   padding: .25rem;
@@ -40,7 +50,10 @@ input[type="submit"] {
   font-size: .75rem;
   color: white;
 }
-
+footer {
+	background-color: beige;
+	padding:1em;
+}
 /*********** PRODUCTS SECTION ***********/
 
 section {
@@ -59,3 +72,21 @@ h3 {
   text-align: center;
   color: #2d2d2d;
 }
+
+.flex.container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: bisque;
+}
+
+.flex.container,div {
+	width:auto;
+	margin:0.5rem;
+	background-color: bisque;
+	text-align: center;	
+	justify-content: center;
+}
+
+
+
+
