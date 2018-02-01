@@ -11,17 +11,19 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 20rem;
+	padding: 1.3em;
 }
 header {
 	background-color: beige;
 }
 /***************** NAV *****************/
 
-nav a:hover {
-  text-decoration: underline;
+nav ul:hover {
+  background-color: antiquewhite;
 }
-/*Horizontal NAV*/
+
+/*********Horizontal NAV***************/
+
 nav, li {
 	display: inline;
 	align-content: center;
@@ -39,8 +41,26 @@ header img {
 h1 .logo-w {
   font-size: 3.5rem;
 }
+h1 {
+	font-size: 1.5em;
+}
 
-/**************** Footer (Previously ASIDE) ****************/
+/********************IMAGES SIZE************/
+
+.small-image {
+	max-height: 15rem;
+}
+.small-image:hover {
+	max-height: 22rem;
+}
+.large-image {
+	max-height: 22rem;
+}
+.large-image:hover {
+	max-height: 15rem;
+}
+
+/**************** FOOTER (Previously ASIDE) ****************/
 
 input[type="submit"] {
   padding: .25rem;
@@ -54,10 +74,12 @@ footer {
 	background-color: beige;
 	padding:1em;
 }
+
 /*********** PRODUCTS SECTION ***********/
 
 section {
-  padding: 0 .75rem;
+  padding: 0.75rem;
+	background-color: bisque;
 }
 
 h2 {
@@ -73,6 +95,10 @@ h3 {
   color: #2d2d2d;
 }
 
+.price {
+	font-weight: 700;
+}
+
 .flex.container {
 	display: flex;
 	flex-wrap: wrap;
@@ -85,6 +111,7 @@ h3 {
 	background-color: bisque;
 	text-align: center;	
 	justify-content: center;
+	padding: 2em;
 }
 
 
