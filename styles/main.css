@@ -11,30 +11,41 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-	padding: 1.3em;
+	padding: 1em;
 	height: 10em;
 	width: 10em;
 }
 header {
 	background-color: beige;
 }
-/***************** NAV *****************/
 
-nav ul:hover {
-  background-color: antiquewhite;
-}
-
-/*********Horizontal NAV***************/
+/********* NAV ***************/
 
 nav, li {
 	display: inline;
-	align-content: center;
 	padding-left: 10%;
 	padding-right: 10%;
 	border: solid;
+	padding: 0.5rem 8rem;
+	margin: rem 2rem;;
 }
-/**************** HERO *****************/
 
+.flex-navigation{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: baseline;
+	align-content: space-around;
+}
+
+/**************** Second Header *****************/
+
+.flex-second-header{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
 header img {
   max-height: 6rem;
 	border: solid;
@@ -45,6 +56,9 @@ h1 .logo-w {
 }
 h1 {
 	font-size: 1.5em;
+}
+.photo-frame {
+/*	width: 55%;*/
 }
 
 /**************** FOOTER (Previously ASIDE) ****************/
@@ -88,23 +102,23 @@ h3 {
 
 .flex-container {
 	display: flex;
-	padding: 0;
-	margin: 0;
 	background-color: antiquewhite;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-items: center;
+	align-content: stretch;
 }
 
 .flex-item {
-	width: 200px;
-	height: 150px;
-	margin-top: 0.5rem;
+	width: 20%;
+	height: 20%;
+	padding: 1% 1%;
+	margin: 2% 1%;
 	background-color: bisque;
 	text-align: center;	
 	justify-content: center;
-	padding: 2em;
 	flex-grow: 1;
+	align-items: flex-end;
 }
 
 

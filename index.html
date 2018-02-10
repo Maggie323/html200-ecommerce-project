@@ -15,7 +15,7 @@
 <body>
   <header>
     <nav>
-      <ul>
+      <ul class="flex-navigation">
         <li><a href="#">Hats</a></li>
         <li><a href="#">Gloves</a></li>
         <li><a href="#">Scarves</a></li>
@@ -24,11 +24,22 @@
         </li>
       </ul>
     </nav>
-		<img src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">
-
-    <h1>
-      Winter Wear Warehouse
-    </h1>
+		
+		<div class="flex-second-header">
+			<img class="photo-frame" 
+					 srcset="images/logo-scarfcat.png 1280w, 
+									 images/logo-scarfcat-800.png 800w, 
+									 images/logo-scarfcat-400.png 400w"
+					 
+						sizes="(max-width: 800px) 400px, 
+									 (max-width: 1700px) 800px, 
+									 (min-width: 2400px) 1200px"
+					 
+					 src="images/logo-scarfcat.png" 
+					 alt="dapper cartoon cat wearing a scarf">
+			
+    	<h1>Winter Wear Warehouse</h1>
+		</div>
   </header>
 
   <main>
@@ -106,6 +117,7 @@
         <input type="submit" value="Submit">
       </form>
 	</footer>
+<!--JavaScript Pathway-->
   <script src="js/script.js"></script>
 </body>
 </html>
