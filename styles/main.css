@@ -12,6 +12,8 @@ p {
 /* TODO: size images manually so this is not necessary */
 img {
 	padding: 1.3em;
+	height: 10em;
+	width: 10em;
 }
 header {
 	background-color: beige;
@@ -45,21 +47,6 @@ h1 {
 	font-size: 1.5em;
 }
 
-/********************IMAGES SIZE************/
-
-.small-image {
-	max-height: 15rem;
-}
-.small-image:hover {
-	max-height: 22rem;
-}
-.large-image {
-	max-height: 22rem;
-}
-.large-image:hover {
-	max-height: 15rem;
-}
-
 /**************** FOOTER (Previously ASIDE) ****************/
 
 input[type="submit"] {
@@ -73,12 +60,12 @@ input[type="submit"] {
 footer {
 	background-color: beige;
 	padding:1em;
+	width: 100%;
 }
 
 /*********** PRODUCTS SECTION ***********/
 
 section {
-  padding: 0.75rem;
 	background-color: bisque;
 }
 
@@ -99,19 +86,25 @@ h3 {
 	font-weight: 700;
 }
 
-.flex.container {
+.flex-container {
 	display: flex;
-	flex-wrap: wrap;
-	background-color: bisque;
+	padding: 0;
+	margin: 0;
+	background-color: antiquewhite;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.flex.container,div {
-	width:auto;
-	margin:0.5rem;
+.flex-item {
+	width: 200px;
+	height: 150px;
+	margin-top: 0.5rem;
 	background-color: bisque;
 	text-align: center;	
 	justify-content: center;
 	padding: 2em;
+	flex-grow: 1;
 }
 
 
