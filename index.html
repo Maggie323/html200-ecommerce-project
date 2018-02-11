@@ -2,13 +2,18 @@
 <html lang="en">
 <head>
   <title>Winter Scarves</title>
-
   <meta charset="utf-8">
 
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/main.css">
-
-  <!-- TODO: insert your personal Font Awesome CDN link here -->
+	
+<!--	Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+	
+<!--	Font Awesome-->
+<!--	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>-->
+	
+<!-- TODO: insert your personal Font Awesome CDN link here -->
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
 
@@ -26,18 +31,6 @@
     </nav>
 		
 		<div class="flex-second-header">
-			<img class="photo-frame" 
-					 srcset="images/logo-scarfcat.png 1280w, 
-									 images/logo-scarfcat-800.png 800w, 
-									 images/logo-scarfcat-400.png 400w"
-					 
-						sizes="(max-width: 800px) 400px, 
-									 (max-width: 1700px) 800px, 
-									 (min-width: 2400px) 1200px"
-					 
-					 src="images/logo-scarfcat.png" 
-					 alt="dapper cartoon cat wearing a scarf">
-			
     	<h1>Winter Wear Warehouse</h1>
 		</div>
   </header>
@@ -108,16 +101,34 @@
     </section>
   </main>
 	
-	<footer>
-	      <form>
-        <label>Sign up for our mailing list:
-          <input type="email" name="email">
-        </label>
-
-        <input type="submit" value="Submit">
-      </form>
+	<footer class="footer-container">
+		<form class="footer-item" method="get" autocomplete="on">
+			<p> Sign Up For Our Mailing List:</p>
+			<label>First Name:
+				<input type="text" name="first-name" placeholder="First Name" required>
+			</label><br>
+			
+			<label>Last Name
+				<input type="text" name="last-name" placeholder="Last Name">
+			</label><br>
+			
+			<label>Email Address
+				<input type="email" name="email" placeholder="example@email.com" required>
+			</label><br>
+			
+			<input type="submit" value="Submit">
+    </form>
+		
+		<div class="footer-item">
+			<h3>Contact Us</h3>
+			<p><i class="fas fa-phone"></i>: (206) 856-3000</p>
+			<p><i class="fas fa-envelope-square"></i>: wwscarves@winter.com</p>
+			<p><i class="fas fa-location-arrow"></i>: PO Box 80018, Seattle, WA 98108</p>
+		</div>
 	</footer>
+	
 <!--JavaScript Pathway-->
   <script src="js/script.js"></script>
+	
 </body>
 </html>

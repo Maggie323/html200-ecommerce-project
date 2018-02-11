@@ -1,3 +1,9 @@
+/*Colors to use:
+dark blue: #4d94ff
+light blue: #e6f7ff
+brownish: #c68c53
+*/
+
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
@@ -16,71 +22,53 @@ img {
 	width: 10em;
 }
 header {
-	background-color: beige;
+	background-color: #4d94ff;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url(/images/logo-scarfcat.png);
+
 }
 
-/********* NAV ***************/
-
+/****************** Header 1: NAV ******************/
 nav, li {
 	display: inline;
 	padding-left: 10%;
 	padding-right: 10%;
-	border: solid;
 	padding: 0.5rem 8rem;
-	margin: rem 2rem;;
+	font-size: 1.25rem; 
+}
+
+li {
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
 }
 
 .flex-navigation{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-items: baseline;
 	align-content: space-around;
 }
 
-/**************** Second Header *****************/
-
+/********************* Header 2: Title *****************/
 .flex-second-header{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-items: center;
 }
-header img {
-  max-height: 6rem;
-	border: solid;
-}
 
-h1 .logo-w {
-  font-size: 3.5rem;
-}
 h1 {
-	font-size: 1.5em;
-}
-.photo-frame {
-/*	width: 55%;*/
-}
-
-/**************** FOOTER (Previously ASIDE) ****************/
-
-input[type="submit"] {
-  padding: .25rem;
-  background-color: #3D7FCF;
-  border: 1px solid #3D7FCF;
-  border-radius: 5px;
-  font-size: .75rem;
-  color: white;
-}
-footer {
-	background-color: beige;
-	padding:1em;
-	width: 100%;
+	font-size: 2.5em;
+	padding: 1em;
+	font-family: 'Aclonica', sans-serif;
+	color:  white;
 }
 
-/*********** PRODUCTS SECTION ***********/
-
+/******************** PRODUCTS SECTION ********************/
 section {
-	background-color: bisque;
+	background-color: #e6f7ff;
 }
 
 h2 {
@@ -88,6 +76,8 @@ h2 {
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
+	font-family: 'Ubuntu', sans-serif;
+
 }
 
 h3 {
@@ -102,7 +92,6 @@ h3 {
 
 .flex-container {
 	display: flex;
-	background-color: antiquewhite;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	align-items: center;
@@ -114,13 +103,46 @@ h3 {
 	height: 20%;
 	padding: 1% 1%;
 	margin: 2% 1%;
-	background-color: bisque;
+	background-color: ghostwhite;
 	text-align: center;	
 	justify-content: center;
 	flex-grow: 1;
 	align-items: flex-end;
 }
 
+/**************** FOOTER (Previously ASIDE) ****************/
 
+input[type="submit"] {
+  padding: .25rem;
+  border: 1px solid #3D7FCF;
+  border-radius: 5px;
+  font-size: .75rem;
+  color: white;
+}
 
+footer {
+	background-color: #4d94ff;
+	color: white;
+	line-height: 2em;
+	padding:1em;
+	width: 100%;
+	background-image: url(/images/logo-scarfcat.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.footer-item{
+	font-size: 1.5em;
+}
+footer p {
+	font-family: 'Aclonica', sans-serif;
+	color: white;
+}
 
