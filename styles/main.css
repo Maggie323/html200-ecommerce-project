@@ -26,10 +26,12 @@ header {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-image: url(/images/logo-scarfcat.png);
-
 }
+/*Decrease the header backgroud image when under 650px*/
 
 /****************** Header 1: NAV ******************/
+
+/*Replace the nav bar with a hamburger icon when under 650px*/
 nav, li {
 	display: inline;
 	padding-left: 10%;
@@ -67,6 +69,7 @@ h1 {
 }
 
 /******************** PRODUCTS SECTION ********************/
+/*Fix module sizing to render property*/
 section {
 	background-color: #e6f7ff;
 }
@@ -133,16 +136,22 @@ footer {
 
 .footer-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-around;
+	align-content: center;
 	flex-flow: row wrap;
 }
 
 .footer-item{
 	font-size: 1.5em;
 }
-footer p {
+footer p{
 	font-family: 'Aclonica', sans-serif;
 	color: white;
 }
 
+/*Media Query: Remove the footer's background image on a screen less than 600px wide*/
+@media only screen and (max-width: 750px){
+	footer {
+		background-image: none;
+	}
+}
