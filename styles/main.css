@@ -1,4 +1,4 @@
-/*Colors to use:
+/*Colors:
 dark blue: #4d94ff
 light blue: #e6f7ff
 brownish: #c68c53
@@ -27,11 +27,8 @@ header {
 	background-size: contain;
 	background-image: url(/images/logo-scarfcat.png);
 }
-/*Decrease the header backgroud image when under 650px*/
 
 /****************** Header 1: NAV ******************/
-
-/*Replace the nav bar with a hamburger icon when under 650px*/
 nav, li {
 	display: inline;
 	padding-left: 10%;
@@ -69,7 +66,6 @@ h1 {
 }
 
 /******************** PRODUCTS SECTION ********************/
-/*Fix module sizing to render property*/
 section {
 	background-color: #e6f7ff;
 }
@@ -80,7 +76,6 @@ h2 {
   text-align: center;
   color: #2d2d2d;
 	font-family: 'Ubuntu', sans-serif;
-
 }
 
 h3 {
@@ -99,20 +94,26 @@ h3 {
 	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
+	padding: 2em 15em;
 }
 
 .flex-item {
-	width: 20%;
-	height: 20%;
-	padding: 1% 1%;
-	margin: 2% 1%;
+	padding: 2em;
+	margin: 2rem  1rem;
 	background-color: ghostwhite;
 	text-align: center;	
 	justify-content: center;
 	flex-grow: 1;
 	align-items: flex-end;
+	flex-basis: 1rem;
 }
-
+/*Media Query: Take off margin & padding for screens smaller than 950px.*/
+@media only screen and (max-width: 950px){
+	.flex-container {
+			padding: 0%;
+			margin: 0%;
+	}
+}
 /**************** FOOTER (Previously ASIDE) ****************/
 
 input[type="submit"] {
