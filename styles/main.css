@@ -1,5 +1,5 @@
 /*Colors:
-dark blue: #4d94ff
+dark blue: #4d94ff /rgb(77, 148, 255)
 light blue: #e6f7ff
 brownish: #c68c53
 */
@@ -21,13 +21,10 @@ img {
 	height: 10em;
 	width: 10em;
 }
+
 header {
 	background-color: #4d94ff;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-image: url(/images/logo-scarfcat.png);
 }
-
 /****************** Header 1: NAV ******************/
 nav, li {
 	display: inline;
@@ -45,9 +42,13 @@ li {
 .flex-navigation{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: flex-end;
+	justify-content: space-around;
 	align-items: baseline;
-	align-content: space-around;
+}
+@media only screen and (max-width: 615px){
+	.flex.navigation{
+		justify-content: center;
+	}
 }
 
 /********************* Header 2: Title *****************/
@@ -63,6 +64,11 @@ h1 {
 	padding: 1em;
 	font-family: 'Aclonica', sans-serif;
 	color:  white;
+}
+@media only screen and (max-width: 615px){
+	.flex-second-header {
+		justify-content: center;		
+	}
 }
 
 /******************** PRODUCTS SECTION ********************/
