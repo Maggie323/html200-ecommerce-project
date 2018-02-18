@@ -136,7 +136,7 @@ footer {
 	line-height: 2em;
 	padding:1em;
 	width: 100%;
-	background-image: url(images/logo-scarfcat.png);
+	background-image: url("/images/logo-scarfcat.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -156,7 +156,7 @@ footer p{
 	color: white;
 }
 
-/*Media Query: Remove the footer's background image on a screen less than 600px wide*/
+/*Media Query: Remove the footer's background image on a screen less than 750px wide*/
 @media only screen and (max-width: 750px){
 	footer {
 		background-image: none;
