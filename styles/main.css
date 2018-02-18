@@ -8,23 +8,21 @@ body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
-
 p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: #2d2d2d;
 }
-
 /* TODO: size images manually so this is not necessary */
 img {
 	padding: 1em;
 	height: 10em;
 	width: 10em;
 }
-
 header {
 	background-color: #4d94ff;
 }
+
 /****************** Header 1: NAV ******************/
 nav, li {
 	display: inline;
@@ -33,12 +31,10 @@ nav, li {
 	padding: 0.5rem 8rem;
 	font-size: 1.25rem; 
 }
-
 li {
 	font-family: 'Ubuntu', sans-serif;
 	color: white;
 }
-
 .flex-navigation{
 	display: flex;
 	flex-flow: row wrap;
@@ -58,7 +54,6 @@ li {
 	justify-content: space-around;
 	align-items: center;
 }
-
 h1 {
 	font-size: 2.5em;
 	padding: 1em;
@@ -75,7 +70,6 @@ h1 {
 section {
 	background-color: #e6f7ff;
 }
-
 h2 {
   padding-top: 1.5rem;
   font-size: 2rem;
@@ -83,17 +77,14 @@ h2 {
   color: #2d2d2d;
 	font-family: 'Ubuntu', sans-serif;
 }
-
 h3 {
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
 }
-
 .price {
 	font-weight: 700;
 }
-
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
@@ -102,7 +93,6 @@ h3 {
 	align-content: stretch;
 	padding: 2em 15em;
 }
-
 .flex-item {
 	padding: 2em;
 	margin: 2rem  1rem;
@@ -120,8 +110,8 @@ h3 {
 			margin: 0%;
 	}
 }
-/**************** FOOTER (Previously ASIDE) ****************/
 
+/**************** FOOTER (Previously ASIDE) ****************/
 input[type="submit"] {
   padding: .25rem;
   border: 1px solid #3D7FCF;
@@ -129,7 +119,6 @@ input[type="submit"] {
   font-size: .75rem;
   color: white;
 }
-
 footer {
 	background-color: #4d94ff;
 	color: white;
@@ -140,14 +129,12 @@ footer {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-
 .footer-container {
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
 	flex-flow: row wrap;
 }
-
 .footer-item{
 	font-size: 1.5em;
 }
@@ -155,7 +142,6 @@ footer p{
 	font-family: 'Aclonica', sans-serif;
 	color: white;
 }
-
 /*Media Query: Remove the footer's background image on a screen less than 750px wide*/
 @media only screen and (max-width: 750px){
 	footer {
