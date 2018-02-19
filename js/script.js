@@ -6,10 +6,10 @@ function capture (){
 	console.log("form submitted")
 	
 	var custEmail = document.custInfo.email.value
-	var fName = documnet.custInfo.first-name.value
-	var lName = document.custInfo.last-name.value
+	var firstName = document.custInfo.firstName.value
+	var lastName = document.custInfo.lastName.value
 	
-	console.log("Welcome " fName + lName + "your entry with " + "'" + custEmail + "' " + " was successful!")
+	console.log(firstName + " " + lastName + " your entry with" + " '" + custEmail + "'" + " was successful!")
 }
 
 var products = [
