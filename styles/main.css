@@ -24,11 +24,8 @@ header {
 }
 
 /****************** Header 1: NAV ******************/
-nav, li {
-	display: inline;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding: 0.5rem 8rem;
+nav, ul {
+	padding: 0.5rem;
 	font-size: 1.25rem; 
 }
 li {
@@ -36,14 +33,19 @@ li {
 	color: white;
 }
 .flex-navigation{
-	display: flex;
+	display: flex; 
 	flex-flow: row wrap;
 	justify-content: space-around;
-	align-items: baseline;
+	align-items: center;
+	padding: inherit;
+}
+.navigation-item{
+	flex-flow: row wrap;
 }
 @media only screen and (max-width: 615px){
 	.flex.navigation{
 		justify-content: center;
+		flex-direction: column;
 	}
 }
 
@@ -147,4 +149,8 @@ footer p{
 	footer {
 		background-image: none;
 	}
+}
+/*Dont display the .print class*/
+.print {
+	display: none;
 }

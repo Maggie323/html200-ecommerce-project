@@ -1,0 +1,28 @@
+.print {
+	display: initial;
+}
+nav{
+	padding: 0%;
+}
+h1 {
+	color: black;
+}
+i {
+	color: black;
+}
+footer,div, {
+	color: black;
+	font-size: 150%;
+}
+
+.footer-item{
+	color: black;
+}
+/*Don't print the form section*/
+form {
+	display: none;
+}
+.flex-container {
+	margin: 0%;
+	padding: 0%;
+}
