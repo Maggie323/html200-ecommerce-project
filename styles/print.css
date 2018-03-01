@@ -10,9 +10,8 @@ h1 {
 i {
 	color: black;
 }
-footer,div, {
+footer,div {
 	color: black;
-	font-size: 150%;
 }
 
 .footer-item{
