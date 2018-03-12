@@ -1,7 +1,40 @@
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
 // This will be best accomplished after we do lesson 09.
-function capture (){
+
+
+/* Global Variable */
+var cart = []
+
+/*Variable with all scarf items */ 
+var scarves = [
+	'Reversible Plaid', 
+	'Fringed Plaid', 
+	'Multi Color', 
+	'Northern Lights', 
+	'Ombre Infinity', 
+	'Ashby Twill', 
+	'Wool Cable Knit', 
+	'Etro Paisley-Print Silk']
+
+function addItems(item){
+  event.preventDefault()
+  var i = cart.indexOf(scarves[item])
+  if (i == -1){
+    cart.push(scarves[item])
+    console.log("'" + scarves[item]  + "'" + " Added")
+  } else {
+    var index = cart.indexOf(item);
+    cart.splice(i, 1);
+    console.log(scarves[item] + " Removed")
+  }
+  
+  /* Total Items in cart */
+  console.log('Total Scarves in Cart: ' + cart.length)
+}
+
+//Form Handler for Email Subscription
+function capture(){
 	event.preventDefault()
 	console.log("form submitted")
 	
@@ -62,4 +95,3 @@ var products = [
     "imageTitle": "twill.jpg"
   }
 ]
-
