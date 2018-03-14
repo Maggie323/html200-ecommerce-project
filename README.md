@@ -73,71 +73,70 @@ Audiences
 
 WHO:
 Ladies 
-•	Rating: HIGH 
-•	I found that 75% of women own a smartphone, so, mobile browsing while viewing this site must be a pleasant experience for this user group. 
-•	http://www.pewinternet.org/fact-sheet/mobile/
+Rating: HIGH 
+I found that 75% of women own a smartphone, so, mobile browsing while viewing this site must be a pleasant experience for this user group. 
+http://www.pewinternet.org/fact-sheet/mobile/
 
 People under 60 years of age 
-•	Rating: MEDIUM 
-•	I found that the vast majority of everyone under the age of 60 years own a mobile device.
-	o	Ages 18-29 94%
-	o	Ages 30-24 89%
-	o	Ages 50-64 73%
-•	http://www.pewinternet.org/fact-sheet/mobile/
+Rating: MEDIUM 
+I found that the vast majority of everyone under the age of 60 years own a mobile device.
+Ages 18-29 94%
+Ages 30-24 89%
+Ages 50-64 73%
+http://www.pewinternet.org/fact-sheet/mobile/
 
 Parents, students, working adults 
-•	Rating: HIGH 
-•	In my research I found that 9/10 American adults use the internet, my conclusion is that if my site isn't working properly, such as if a link is broken, it will have a huge impact on the number of visitor my page looses. 
-•	http://www.pewinternet.org/fact-sheet/internet-broadband/
+Rating: HIGH 
+In my research I found that 9/10 American adults use the internet, my conclusion is that if my site isn't working properly, such as if a link is broken, it will have a huge impact on the number of visitor my page looses. 
+http://www.pewinternet.org/fact-sheet/internet-broadband/
 
 Middle school education and above 
-•	Rating: MEDIUM 
-•	I saw there is a trend: those with a higher education tend to own more smartphones vs their counterparts.
-•	http://www.pewglobal.org/2016/02/22/smartphone-ownership-and-internet-usage-continues-to-climb-in-emerging-economies/
+Rating: MEDIUM 
+I saw there is a trend: those with a higher education tend to own more smartphones vs their counterparts.
+http://www.pewglobal.org/2016/02/22/smartphone-ownership-and-internet-usage-continues-to-climb-in-emerging-economies/
 
 Online shoppers 
-•	Rating: HIGH 
-•	My findings: More than 1 in 5 of the world's population shopped online in the past 30 days. 
-•	https://wearesocial.com/uk/special-reports/digital-in-2017-global-overview
+Rating: HIGH 
+My findings: More than 1 in 5 of the world's population shopped online in the past 30 days. 
+https://wearesocial.com/uk/special-reports/digital-in-2017-global-overview
 
 HOW:
-	I think my user base is probably using PC devices to complete their order and have a fast internet connection. 
+I think my user base is probably using PC devices to complete their order and have a fast internet connection. 
 Rating: HIGH 
 This site's functionality should be able to load fast enough, there's a huge population that relies on fast internet and will opt out of using my site if it takes too long to load. 
 My findings: 3/4 of American adults have broadband internet service at home. 
 http://www.pewinternet.org/fact-sheet/internet-broadband/
 
-	Users possibly use a hand-held device to browse the site and look at the pictures. 
+Users possibly use a hand-held device to browse the site and look at the pictures. 
 Rating: HIGH
 My findings: Reliance on smartphones for online access is mainly common for younger adults, non-whites and lower-income Americans.
 http://www.pewinternet.org/fact-sheet/mobile/
 
 WHERE: 
-	Nationals are probably the ones viewing my site. I'm not planning on shipping world wide at this time. 
+Nationals are probably the ones viewing my site. I'm not planning on shipping world wide at this time. 
 Rating: HIGH 
 I'm expecting more of my users to be nationals, and according the the below source, "95% of Americans use a cellphone", therefore it's extremely important that this website works perfectly on a mobile device. 
 http://www.pewinternet.org/fact-sheet/mobile/
 
 WHY:
-	Users seek this site to be informed of new winter scarf trends 
-	Rating: MEDIUM 
+Users seek this site to be informed of new winter scarf trends 
+Rating: MEDIUM 
 
-	Visitors may visit my site to do research on scarf material?
-	Rating: LOW 
+Visitors may visit my site to do research on scarf material?
+Rating: LOW 
 
-	Visitors are mainly here to shop for a scarf either for themselves or as a gift 
-	Rating: HIGH 
+Visitors are mainly here to shop for a scarf either for themselves or as a gift 
+Rating: HIGH 
 
-	Few may want to browse for pure entertainment 
-	Rating: LOW 
+Few may want to browse for pure entertainment 
+Rating: LOW 
 
 WHEN:
-	Page is proably seen after work between 5-11PM 
-	Rating: HIGH 
+Page is proably seen after work between 5-11PM 
+Rating: HIGH 
 
-	Anytime during the weekend 
-	Rating: HIGH
-
+Anytime during the weekend 
+Rating: HIGH
 
 <!-- My Quality Control-->
 
@@ -145,7 +144,6 @@ WHEN:
 For the most part I'm happy with the way that my page is rendered. But I did notice that the text on the headers are too big for some devices such as on a iPhone 6&7 Plus, therefore increasing the size of both my header and footer.
 My favorite rendering was on a 22" Desktop with a 1680X1050 display.  
 http://responsivedesignchecker.com/
-
 2)	I also used:
 https://developer.microsoft.com/en-us/microsoft-edge/
 I was glad to see there were 0 Accessibility issues, but I did have others. 
@@ -159,6 +157,7 @@ https://use.fontawesome … leases/v5.0.6/css/all.css:10:5
 -->
 On reading how to fix one 'error' i realized that there is still A LOT for me to learn if I'm going to complete my own quality control for my products. I stumbled on this blog, which seems handy and thorough, but a lot of work for a newbie like myself:
 https://www.fastly.com/blog/best-practices-using-vary-header
+
 
 3)	Lastly, I used:
 https://www.webpagetest.org/
