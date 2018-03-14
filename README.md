@@ -72,18 +72,19 @@ Each weekly assignment will be graded independently. There will not be a final g
 Audiences
 
 WHO:
-Ladies 
-Rating: HIGH 
-I found that 75% of women own a smartphone, so, mobile browsing while viewing this site must be a pleasant experience for this user group. 
-http://www.pewinternet.org/fact-sheet/mobile/
+WHO:
+1. Ladies 
+- Rating: HIGH 
+- I found that 75% of women own a smartphone, so, mobile browsing while - viewing this site must be a pleasant experience for this user group. 
+- http://www.pewinternet.org/fact-sheet/mobile/
 
-People under 60 years of age 
-Rating: MEDIUM 
-I found that the vast majority of everyone under the age of 60 years own a mobile device.
-Ages 18-29 94%
-Ages 30-24 89%
-Ages 50-64 73%
-http://www.pewinternet.org/fact-sheet/mobile/
+2. People under 60 years of age 
+- Rating: MEDIUM 
+- I found that the vast majority of everyone under the age of 60 years own a mobile device.
+- Ages 18-29 94%
+- Ages 30-24 89%
+- Ages 50-64 73%
+- http://www.pewinternet.org/fact-sheet/mobile/
 
 Parents, students, working adults 
 Rating: HIGH 
