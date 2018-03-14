@@ -115,6 +115,7 @@ Users possibly use a hand-held device to browse the site and look at the picture
 - http://www.pewinternet.org/fact-sheet/mobile/
 
 WHERE: 
+
 Nationals are probably the ones viewing my site. I'm not planning on shipping world wide at this time. 
 - Rating: HIGH 
 - I'm expecting more of my users to be nationals, and according the the below source, "95% of Americans use a cellphone", therefore it's extremely important that this website works perfectly on a mobile device. 
