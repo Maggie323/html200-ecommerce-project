@@ -84,7 +84,7 @@ People under 60 years of age
 	- Ages 18-29 94%
 	- Ages 30-24 89%
 	- Ages 50-64 73%
-	- http://www.pewinternet.org/fact-sheet/mobile/
+- http://www.pewinternet.org/fact-sheet/mobile/
 
 Parents, students, working adults 
 - Rating: HIGH 
@@ -102,7 +102,8 @@ Online Shoppers
 - https://wearesocial.com/uk/special-reports/digital-in-2017-global-overview
 
 HOW:
-- I think my user base is probably using PC devices to complete their order and have a fast internet connection. 
+
+I think my user base is probably using PC devices to complete their order and have a fast internet connection. 
 - Rating: HIGH 
 - This site's functionality should be able to load fast enough, there's a huge population that relies on fast internet and will opt out of using my site if it takes too long to load. 
 - My findings: 3/4 of American adults have broadband internet service at home. 
@@ -121,14 +122,14 @@ WHERE:
 
 WHY:
 
-Users seek this site to be informed of new winter scarf trends 
-- Rating: MEDIUM 
-Visitors may visit my site to do research on scarf material?
-- Rating: LOW 
-Visitors are mainly here to shop for a scarf either for themselves or as a gift 
-- Rating: HIGH 
-Few may want to browse for pure entertainment 
-- Rating: LOW 
+- Users seek this site to be informed of new winter scarf trends 
+	- Rating: MEDIUM 
+- Visitors may visit my site to do research on scarf material?
+	- Rating: LOW 
+- Visitors are mainly here to shop for a scarf either for themselves or as a gift 
+	- Rating: HIGH 
+- Few may want to browse for pure entertainment 
+	- Rating: LOW 
 
 WHEN:
 
@@ -136,6 +137,7 @@ Page is proably seen after work between 5-11PM
 - Rating: HIGH 
 Anytime during the weekend 
 - Rating: HIGH
+
 
 MY Quality Control: 
 1)	I used the below link to view my website on different device screen sizes. 
